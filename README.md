@@ -1,3 +1,15 @@
-# Stracrösa sito v2
+# STRACRÖSA – sito multipagina v2
 
-One-page pronto per GitHub Pages. Carica tutti i file nel repository e attiva Pages da Settings > Pages.
+Sito statico multipagina con logo dritto e Ö modificata.
+
+## Pagine
+- index.html
+- progetto.html
+- percorso.html
+- cantine.html
+- vini.html
+- contatti.html
+
+## Pubblicazione GitHub Pages
+Carica tutti i file nel repository, poi attiva:
+Settings → Pages → Deploy from a branch → main → /root.
