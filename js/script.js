@@ -1,5 +1,5 @@
-const burger=document.querySelector('.burger');const menu=document.querySelector('.menu');
-if(burger) burger.addEventListener('click',()=>menu.classList.toggle('open'));
-const choices=document.querySelectorAll('.choice');const result=document.querySelector('.result');
-const texts={assaggio:'Cantina di ingresso, vigneti bassi, crinale e tavola finale: un percorso pensato per capire il vino attraverso le sue quote.',paesaggio:'Salita lenta fino al punto panoramico, sosta breve e rientro morbido verso il borgo: il paesaggio diventa il filo narrativo.',tavola:'Degustazione, prodotti locali e pranzo leggero: la strada finisce dove il vino trova il suo posto naturale, alla tavola.'};
-choices.forEach(c=>c.addEventListener('click',()=>{choices.forEach(x=>x.classList.remove('active'));c.classList.add('active');result.textContent=texts[c.dataset.type];}));
+const toggle=document.querySelector('.menu-toggle');
+const nav=document.querySelector('.nav');
+if(toggle&&nav){toggle.addEventListener('click',()=>nav.classList.toggle('open'));}
+const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));

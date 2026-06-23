@@ -1,15 +1,13 @@
-# STRACRÖSA – sito multipagina v2
+# StraCrösa — sito multipagina
 
-Sito statico multipagina con logo dritto e Ö modificata.
+Struttura:
+- `index.html` — home
+- `percorso.html` — concept della strada / percorso
+- `vini.html` — vini e gerarchia prodotto
+- `cantina.html` — azienda, metodo e territorio
+- `contatti.html` — pagina contatti dimostrativa
+- `css/style.css` — stile grafico
+- `js/script.js` — menu mobile e animazioni leggere
+- `images/` — logo e immagini ottimizzate
 
-## Pagine
-- index.html
-- progetto.html
-- percorso.html
-- cantine.html
-- vini.html
-- contatti.html
-
-## Pubblicazione GitHub Pages
-Carica tutti i file nel repository, poi attiva:
-Settings → Pages → Deploy from a branch → main → /root.
+Il sito è statico e può essere aperto direttamente da `index.html`.
