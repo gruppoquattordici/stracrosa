@@ -1,5 +1,2 @@
-const toggle=document.querySelector('.menu-toggle');
-const nav=document.querySelector('.nav');
-if(toggle&&nav){toggle.addEventListener('click',()=>nav.classList.toggle('open'));}
-const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:.12});
-document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+const menu=document.querySelector('.menu-toggle');const nav=document.querySelector('.nav');if(menu&&nav){menu.addEventListener('click',()=>nav.classList.toggle('open'))}
+const slides=[...document.querySelectorAll('.slide')];const count=document.querySelector('[data-count]');let i=0;if(slides.length){setInterval(()=>{slides[i].classList.remove('active');i=(i+1)%slides.length;slides[i].classList.add('active');if(count)count.textContent=String(i+1).padStart(2,'0')},3600)}

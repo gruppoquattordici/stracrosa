@@ -1,13 +1,8 @@
-# StraCrösa — sito multipagina
+# StraCrösa — sito stile ADC
 
-Struttura:
-- `index.html` — home
-- `percorso.html` — concept della strada / percorso
-- `vini.html` — vini e gerarchia prodotto
-- `cantina.html` — azienda, metodo e territorio
-- `contatti.html` — pagina contatti dimostrativa
-- `css/style.css` — stile grafico
-- `js/script.js` — menu mobile e animazioni leggere
-- `images/` — logo e immagini ottimizzate
+Sito statico multipagina in HTML/CSS/JS, ispirato alla struttura editoriale e visuale di adc.land: hero con numerazione, sezioni molto tipografiche, griglie immagini, card di prodotto, newsletter e footer.
 
-Il sito è statico e può essere aperto direttamente da `index.html`.
+Aprire `index.html` nel browser. Tutti gli asset sono locali nella cartella `images/`.
+
+
+Ottimizzazione immagini: tutte le immagini principali sono state convertite in WebP e ridimensionate per uso web.
