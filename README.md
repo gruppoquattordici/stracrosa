@@ -1,8 +1,1 @@
-# StraCrösa — sito stile ADC
-
-Sito statico multipagina in HTML/CSS/JS, ispirato alla struttura editoriale e visuale di adc.land: hero con numerazione, sezioni molto tipografiche, griglie immagini, card di prodotto, newsletter e footer.
-
-Aprire `index.html` nel browser. Tutti gli asset sono locali nella cartella `images/`.
-
-
-Ottimizzazione immagini: tutte le immagini principali sono state convertite in WebP e ridimensionate per uso web.
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contatti — StraCrösa</title><link rel="stylesheet" href="css/style.css"></head><body><header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><img src="images/logo-stracrosa.webp" alt="StraCrösa"></a><nav class="nav"><a href="index.html">Home</a><a href="percorso.html">Percorso</a><a href="vini.html">Vini</a><a href="cantina.html">Cantina</a><a class="active" href="contatti.html">Contatti</a></nav><button class="menu-toggle">Menu</button></div></header><main class="page"><section class="contact-card"><div><p class="kicker">Contatti</p><h1>Segui la strada.</h1></div><div class="black"><div class="contact-lines"><p>Azienda Agricola Corrado Volpini</p><p>Santa Margherita di Staffora<br>Pavia · Alto Oltrepò Pavese</p><p>info@stracrosa.it<br>@stracrosa</p></div><p>Concept website · dati di contatto da verificare prima della pubblicazione.</p></div></section><section class="newsletter"><h2>Ricevi aggiornamenti.</h2><form><label class="kicker" for="mail">Newsletter</label><div class="form-line"><input id="mail" type="email" placeholder="La tua email"><button type="button">Invia</button></div></form></section></main><footer class="footer"><img src="images/logo-stracrosa.webp"><p>StraCrösa</p><p>Bere con moderazione</p></footer><script src="js/script.js"></script></body></html>
